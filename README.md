@@ -13,7 +13,7 @@ I did a small project in that direction where we are getting the temperature and
   ![](weather%20app/images/tempraturepng.png)
 
 # Notes
-* We are using us zip codes only, to use other country's zip codes please refer to the official documentation of open weather.
+* We are using US zip codes only, to use other country's zip codes please refer to the official documentation of open weather.
 * temperature is provided in Celsius.
 
 :copyright: Birender Veer Singh
