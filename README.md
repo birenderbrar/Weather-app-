@@ -6,11 +6,11 @@ I did a small project in that direction where we are getting temprature and humi
 * Flask has been used for the environment.
 # App working 
 * First of all user is asked to provide the zipcode of the relevant area.
-   ![](weather app/images/index.png)
+   ![](weatherapp/images/index.png)
    
 * Than we render user to result page, which shows the weather condion for outside and home
   
-  ![](weather app/images/temprature.png)
+  ![](weatherapp/images/temprature.png)
 
 # Notes
 * we are using us zip codes only, in order to use other counry's zip codes please refer to the offial documentationof open weather.
