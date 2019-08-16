@@ -11,6 +11,11 @@ I did a small project in that direction where we are getting the temperature and
 * Than we render user to result  page, which shows the weather condition for outside and home
   
   ![](weather%20app/images/tempraturepng.png)
+  
+  * Following is the arduino and DHT11 connection, I am using dht library. I have provided the code as well. 
+  
+  ![](circuit.png)
+  
 
 # Notes
 * We are using US zip codes only, to use other country's zip codes please refer to the official documentation of open weather.
