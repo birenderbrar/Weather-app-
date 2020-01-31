@@ -5,6 +5,10 @@ import serial
 
 app = Flask(__name__)
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
 
 @app.route('/temperature', methods=['POST'])
 def temperature():
@@ -27,9 +31,6 @@ def temperature():
     return render_template('temperature.html', temp1=temp_outdoor, hum1=humidity_outdoor, temp2=temp_indoor, hum2=humidity_indoor)
 
 
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 
 if __name__ == '__main__':
